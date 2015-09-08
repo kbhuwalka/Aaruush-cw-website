@@ -3,6 +3,9 @@
 	min-height: 50vh;
 	/*background: url("../images/back.png") no-repeat center;
 	background-size: cover;*/
+	background-color: #212121;
+	/*position: absolute;
+	width: 100%;*/
 }
 
 #banner-img{
@@ -12,7 +15,11 @@
 }
 
 #banner-img img{
-	max-width: 240px;
+	max-width: 200px;
+}
+
+#banner h3{
+	margin-top: 2px;
 }
 
 #login-container{
@@ -27,7 +34,7 @@
 }
 
 #login-card{
-	margin-top: -100px;
+	margin-top: -150px;
 	max-width: 720px;
 	background-color: #F7F7F7;
 	padding: 5px 20px;
@@ -50,4 +57,70 @@
 #login-btn{
 	width: 80%;
 	background-color: #4D90FE;
+}
+
+.main-background{
+	height: 100vh;
+	background-color: #212121;
+}
+
+#sign-out .btn-flat{
+	margin: 20px 10px;
+	font-size: 1.25em;
+}
+
+#sign-out .btn-flat:hover{
+	color: #F55449 !important;
+}
+
+.vh-center-container{
+	position: relative;
+}
+
+.vh-center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#question-holder{
+	min-width: 720px;
+}
+
+#question-holder .card-title{
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+#question-holder label{
+	font-size: 1.15em;
+	margin: 10px 5px;
+	color: #717171;
+}
+
+#question-holder input[type="radio"]:checked+label:after{
+	border: 2px solid #F55443;
+	background-color: #F55443;
+}
+
+#question-holder .card-action{
+	padding: 0;
+}
+
+#question-holder .card-action .btn-flat{
+	margin: 10px;
+	color : #F55443;
+}
+
+#question-holder .card-action .btn-flat:hover{
+	background: #F7F7F7;
+}
+
+#question-numbers{
+	margin-top: -10px;
+}
+
+#question-numbers .card-content{
+	padding: 0;
 }
