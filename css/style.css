@@ -93,6 +93,10 @@
 	font-weight: 400;
 }
 
+#question-holder form button[type="submit"]{
+	margin-top: 10px;
+}
+
 #question-holder label{
 	font-size: 1.15em;
 	margin: 10px 5px;
@@ -123,4 +127,10 @@
 
 #question-numbers .card-content{
 	padding: 0;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

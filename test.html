@@ -22,8 +22,10 @@
           <div class="vh-center">
             <div class="row">
               <div class="col s12">
+                <span class="flow-text center white-text" id="time"></span>
                 <div class="card" id="question-holder">
                   <div class="card-content flow-text">
+                    <form>
                       <span class="card-title grey-text text-darken-1">Mirror, mirror on the wall, who is the suckiest of them all?</span>
                       <p>
                         <input type="radio" id="option1" name="stupid">
@@ -41,15 +43,18 @@
                         <input type="radio" id="option4" name="stupid">
                         <label for="option4"> Cane Toad </label>
                       </p>
+                       <button class="btn waves-effect center waves-light blue" type="submit" name="action" id="submit-answer">Submit
+                       </button>
+                    </form>
                    </div>
-                   <div class="card-action">
-                      <a class="btn-flat left"> Previous</a>
+                   <!--<div class="card-action">
+                      <a class="btn-flat center"> Submit</a>
                       <a class="btn-flat right">Next</a>
-                   </div>
+                   </div>-->
                   </div>
                 </div>
               </div>
-            <div class="row">
+            <!--<div class="row">
               <div class="col s12">
                 <div class="card" id="question-numbers">
                   <div class="card-content">
@@ -58,13 +63,14 @@
                   </div>
                 </div>
               </div>
+            </div>-->
           </div>
-            </div>
         </div>
       </div>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript" src="js/style.js"></script>
+            <script type="text/javascript" src="js/timer.js"></script>
     </body>
   </html>
