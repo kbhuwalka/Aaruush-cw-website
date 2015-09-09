@@ -1,10 +1,9 @@
 $(document).ready(function(){
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal-trigger').leanModal();
-
+    disableRightClick("#question-holder");
     currentFrame = 0;
     animateProgressBar(90);
-
   });
 
 function renderProgress(progress)
@@ -38,4 +37,12 @@ function animateProgressBar(progress){
 		renderProgress(currentFrame++);
 		if(--progress+1) animateProgressBar(progress);
 	},25);
+}
+
+function disableRightClick(selector){
+    var element = $(selector);
+    element.on("contextmenu", function(){
+        return false;
+    });
+
 }

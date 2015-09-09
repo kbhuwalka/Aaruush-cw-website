@@ -86,6 +86,11 @@
 
 #question-holder{
 	min-width: 720px;
+	-moz-user-select: none;  
+	-webkit-user-select: none;  
+	-ms-user-select: none;  
+	-o-user-select: none;  
+	user-select: none;
 }
 
 #question-holder .card-title{
