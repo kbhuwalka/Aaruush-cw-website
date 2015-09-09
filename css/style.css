@@ -34,7 +34,7 @@
 }
 
 #login-card{
-	margin-top: -150px;
+	/*margin-top: -150px;*/
 	max-width: 720px;
 	background-color: #F7F7F7;
 	padding: 5px 20px;
@@ -243,4 +243,8 @@
 }
 table{
 	margin: 20px auto;
+}
+
+#registration-card{
+	/*max-width: 720px;*/
 }
